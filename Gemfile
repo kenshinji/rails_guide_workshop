@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# add tzinfo-data to solve compatibility problem on windows platform
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
